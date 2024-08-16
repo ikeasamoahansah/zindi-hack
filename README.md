@@ -1,4 +1,6 @@
-# About
+<h1 align="center">Carbon dioxide (CO2) emission prediction challenge 🌨️ </h1>
+
+## About
 
 The objective of this challenge is to create machine learning and deep learning models that use open-source CO2 emissions data (from satellite observations) to predict carbon emissions.
 
@@ -12,7 +14,7 @@ Seven main features were extracted weekly from Sentinel-5P from January 2019 to 
 
 The sentinel 5p data provided was extracted from google earth engine. The following pollutants were extracted from their respective images.
 
-# Resources
+## Resources
 
 - [SulphurDioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_SO2?hl=en)
 - [CarbonMonoxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO?hl=en)
