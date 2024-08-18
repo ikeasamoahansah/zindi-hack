@@ -1,4 +1,4 @@
-<h1 align="center">Carbon dioxide (CO2) emission prediction challenge 🌨️ </h1>
+<h1 align="center">Carbon dioxide emission prediction challenge 🌨️ </h1>
 
 ## About
 
