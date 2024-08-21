@@ -25,3 +25,7 @@ The sentinel 5p data provided was extracted from google earth engine. The follow
 - [Cloud](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD?hl=en)
 
 More info on Sentinel 5p data can be found [here](https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p).
+
+
+## Disclaimer
+Developed for a hackathon
