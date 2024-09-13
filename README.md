@@ -1,31 +1,31 @@
 <h1 align="center">CO2 emission prediction challenge 🌨️ </h1>
 
-## About
+The model was run as a Kaggle notebook in which datasets were saved
 
-The objective of this challenge is to create machine learning and deep learning models that use open-source CO2 emissions data (from satellite observations) to predict carbon emissions.
+Datasets: https://www.kaggle.com/datasets/ikeasamoahansah/co2-prediction-dataset/data
 
-The predictors for this challenge are from Sentinel-5P, an ESA satellite dedicated to monitoring air pollution. The target for this challenge is ground truth CO2 emissions collected from GRACED and EDGAR.
+# 1. Setup
 
-Approximately 800 locations were selected from 20 areas in South Africa, with a distribution around farm lands, cities and power plants.
+Test and Train files could not be uploaded to GitHub due to their sizes
+Files can be found in the dataset link above
 
-The train set contains 361 locations and the test contains 137 locations. The test set is from a different province to the train set, to ensure your model is generalisable to different regions.
+# 2. Order
 
-Seven main features were extracted weekly from Sentinel-5P from January 2019 to November 2022. Each feature (Sulphur Dioxide, Carbon Monoxide, etc) contain sub features such as column_number_density which is the vertical column density at ground level, calculated using the DOAS technique. You can read more about each feature in the below links, including how they are measured and variable definitions.
+The code should be run in the normal order (from top to bottom)
+The file to be used is the [final_submission.ipynb](final_submission.ipynb) file
 
-The sentinel 5p data provided was extracted from google earth engine. The following pollutants were extracted from their respective images.
-
-## Resources
-
-- [SulphurDioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_SO2?hl=en)
-- [CarbonMonoxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_CO?hl=en)
-- [NitrogenDioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_NO2?hl=en)
-- [Formaldehyde](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_HCHO?hl=en)
-- [UvAerosolIndex](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_AI?hl=en)
-- [Ozone](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_O3?hl=en)
-- [Cloud](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD?hl=en)
-
-More info on Sentinel 5p data can be found [here](https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p).
+# 3. Explanations of Features Used
 
 
-## Disclaimer
-Developed for a hackathon
+# 4. Environment
+
+The model was trained on kaggle with a GPU P100 by Nvidia (all free to use) can also be run on a CPU
+
+# 5. Hardware
+
+A CPU or GPU is fine. GPU required for faster training time
+
+# 6. Expected run time
+
+with a GPU - 2 hrs 45 mins
+only CPU - 7 hrs 30 mins
