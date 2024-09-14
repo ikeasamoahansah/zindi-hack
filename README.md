@@ -17,6 +17,12 @@
 
 ### 3. Explanations of Features Used
 
+- Missing data was imputed and Regressors were used to predict the missing values
+- Log, Power and Other transformations were used to normalize the features in the training set.
+- Other features were added based on location and rotated in degrees from some findings.
+- Features were then gathered from all and grouped as top 50 best features
+- These top 50 went further preprocessing and were trained
+- Catboost and LGBM Regressors were used for final training along with some Ensemble methods
 
 ### 4. Environment
 
