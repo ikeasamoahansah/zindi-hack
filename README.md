@@ -8,6 +8,7 @@
 
 - Test and Train files could not be uploaded to GitHub due to their sizes
 - Files can be found in the dataset link above
+- Can be run straight from [kaggle](https://www.kaggle.com/code/ikeasamoahansah/test-features-emission-py)
 
 ### 2. Order
 
