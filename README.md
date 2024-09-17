@@ -9,6 +9,7 @@
 - Test and Train files could not be uploaded to GitHub due to their sizes
 - Files can be found in the dataset link above
 - Can be run straight from [kaggle](https://www.kaggle.com/code/ikeasamoahansah/test-features-emission-py)
+- test and train variables should be replaced with their respective paths
 
 ### 2. Order
 
@@ -34,5 +35,5 @@
 
 ### 6. Expected run time
 
-- with a GPU: 2 hrs 45 mins
-- only CPU: 7 hrs 30 mins
+- with a GPU: 3 hrs 45 mins
+- only CPU: 8 hrs 30 mins
