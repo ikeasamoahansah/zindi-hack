@@ -31,7 +31,8 @@
 
 ### 5. Hardware
 
-- A CPU or GPU is fine. GPU required for faster training time
+- A CPU or GPU is fine.
+- GPU required for faster training time
 
 ### 6. Expected run time
 
